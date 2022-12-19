@@ -1,0 +1,52 @@
+/* #myCarousel .carousel-item img{
+    height: 500px;
+    object-fit: cover;
+} */
+
+.bg-img1 {
+    width: 90vw;
+    height: 100vh;
+    background-color: #000;
+  background-image: url(./anh1.jpeg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+.bg-img2{
+    width: 90vw;
+    height: 100vh;
+    background-color: #000;
+  background-image: url(./anh2.jpeg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+.bg-img3{
+    width: 90vw;
+    height: 100vh;
+    background-color: #000;
+  background-image: url(./anh3.jpeg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+#myCarousel2 .carousel-item {
+    height: 80vh;
+    
+}
+.carouselfooter {
+    margin: 30px;
+}
+/* .carouselfooter::after{
+    content: ;
+} */
+.stick {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+}
+.text-start h1, .text-start p {
+    color:rgb(30, 7, 236)
+}
